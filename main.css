@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: dodgerblue;
+}
+
+.button-tab {
+    background-color: royalblue;
+    margin: auto;
+}
+
+.profile {
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.filter {
+    float: left;
+    background-color: skyblue;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+}
+
+.match-list {
+    background-color: steelblue;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.matches {
+    margin-top: 10px;
+}
