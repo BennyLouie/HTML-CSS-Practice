@@ -1,6 +1,16 @@
+html, body {
+    height: 100%;
+}
+
 img {
     height: 50%;
     width: 100%;
+    object-fit: contain;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
 }
 
 .header {
@@ -9,9 +19,14 @@ img {
     background-color: dodgerblue;
 }
 
+.header-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
 .button-tab {
     background-color: royalblue;
-    margin: auto;
+    margin-right: 10px;
 }
 
 .profile {
@@ -26,11 +41,12 @@ img {
     display: flex;
     justify-content: space-between;
     height: 100%;
+    /* overflow: scroll; */
 }
 
 .filter {
-    float: left;
     background-color: skyblue;
+    height: 300px;
 }
 
 .select {
@@ -41,19 +57,43 @@ img {
 .match-list {
     background-color: steelblue;
     width: 75%;
+    height: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: scroll;
 }
 
 .matches {
     margin-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
-    width: 100;
-    height: 300px;
-    position: relative;
+    width: 300px;
+    height: 600px;
+    background-color: teal;
 }
 
-.buttons {
-    display: none;
+.description-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.match-pic {
+    width: 300px;
+    height: 400px;
+}
+
+@media only screen and (max-width : 640px) {
+	.filter {
+        display: none;
+        background-color: none;
+    }
+
+    .hidden {
+        display: flex;
+        background-color: none;
+        justify-content: space-around;
+        align-content: center;
+    }
 }
