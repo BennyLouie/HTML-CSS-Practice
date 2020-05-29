@@ -16,6 +16,14 @@ img {
     display: block;
 }
 
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
 .profile-pic {
     max-width: 100%;
     max-height: 100%;
@@ -162,10 +170,10 @@ img {
 @media only screen and (max-width : 640px) {
 	.filter {
         display: none;
-        background-color: none;
         align-self: center;
         z-index: 10;
         position: absolute;
+        margin-left: 0;
     }
 
     .hidden {
@@ -173,6 +181,7 @@ img {
         justify-content: space-around;
         align-content: center;
         width: 100%;
+        font-weight: bold;
     }
 
     .none {
