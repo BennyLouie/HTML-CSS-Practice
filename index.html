@@ -10,13 +10,13 @@
                 <h2 class="name">Not A Scam Dating</h2>
             </a>
             <div class="text-buttons">
-                <button class="button-tab" type="button" style="width: 89.38px; height: 21px;" onclick="location.href='https://conversationstartersworld.com/date-ideas/'">Suggestions</button>
-                <button class="button-tab" type="button" style="width: 89.38px; height: 21px;" onclick="location.href='https://www.youtube.com/watch?v=5JT_u7zlhuk'">Likes You</button>
-                <button class="button-tab" type="button" style="width: 89.38px; height: 21px;" onclick="location.href='https://www.google.com/'">Search</button>
-                <button class="button-tab" type="button" style="width: 89.38px; height: 21px;" onclick="location.href='https://www.silversingles.com/discover-silversingles/online-dating-messages'">Messages</button>
+                <button class="button-tab" type="button" style="width: 95px; height: 21px; font-weight: bold;" onclick="location.href='https://conversationstartersworld.com/date-ideas/'">Suggestions</button>
+                <button class="button-tab" type="button" style="width: 95px; height: 21px; font-weight: bold;" onclick="location.href='https://www.youtube.com/watch?v=5JT_u7zlhuk'">Likes You</button>
+                <button class="button-tab" type="button" style="width: 95px; height: 21px; font-weight: bold;" onclick="location.href='https://www.google.com/'">Search</button>
+                <button class="button-tab" type="button" style="width: 95px; height: 21px; font-weight: bold;" onclick="location.href='https://www.silversingles.com/discover-silversingles/online-dating-messages'">Messages</button>
             </div>
             <a href="https://www.eharmony.co.uk/dating-advice/using-eharmony/learning-from-three-awesome-online-dating-profiles">
-                <img class="button-tab profile-icon" src="./images/IMG_4774.jpg" alt="profile_pic">
+                <img class="button-tab profile-icon" style="background-color: transparent;" src="./images/IMG_4774.jpg" alt="profile_pic">
             </a>
         </div>
     </div>
@@ -149,8 +149,8 @@
                     </div>
                 </div>
                 <button class="select center" style="width: 93%;" type="submit">Filter</button>
-                <button class="select center none" style="width: 93%">Close</button>
             </form>
+            <button class="select center none" style="width: 93%; margin-top: 0;" onclick="hide()">Close</button>
         </div>
         <div class="match-list">
             <div class="matches">
@@ -351,6 +351,10 @@
 
         function display() {
             document.querySelector('.filter').style.display = 'inline'
+        }
+
+        function hide() {
+            document.querySelector('.filter').style.display = 'none'
         }
     </script>
 
