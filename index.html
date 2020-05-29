@@ -8,22 +8,24 @@
         <div class="header-buttons">
             <h2 class="name">Not A Scam Dating</h2>
             <div class="text-buttons">
-                <button class="button-tab" type="button">Suggestions</button>
-                <button class="button-tab" type="button">Likes You</button>
-                <button class="button-tab" type="button">Search</button>
-                <button class="button-tab" type="button">Messages</button>
+                <button class="button-tab" type="button" style="width: 89.38px; height: 21px;" onclick="location.href='https://conversationstartersworld.com/date-ideas/'">Suggestions</button>
+                <button class="button-tab" type="button" style="width: 89.38px; height: 21px;" onclick="location.href='https://www.youtube.com/watch?v=5JT_u7zlhuk'">Likes You</button>
+                <button class="button-tab" type="button" style="width: 89.38px; height: 21px;" onclick="location.href='https://www.google.com/'">Search</button>
+                <button class="button-tab" type="button" style="width: 89.38px; height: 21px;" onclick="location.href='https://www.silversingles.com/discover-silversingles/online-dating-messages'">Messages</button>
             </div>
-            <img class="button-tab profile-icon" src="./images/IMG_4774.jpg" alt="profile_pic">
+            <a href="https://www.eharmony.co.uk/dating-advice/using-eharmony/learning-from-three-awesome-online-dating-profiles">
+                <img class="button-tab profile-icon" src="./images/IMG_4774.jpg" alt="profile_pic">
+            </a>
         </div>
     </div>
 
     <div class="content">
         <div class="hidden">
-            <button class="hidden">Filter</button>
+            <button class="hidden" onclick="display()">Filter</button>
         </div>
         <div class="filter">
             <h2 class="center">Filter</h2>
-            <form action="#" method="get">
+            <form action="#" method="post">
                 <div class="select">
                     <label>Gender</label>
                     <select>
@@ -116,26 +118,43 @@
                         </select>
                         <select>
                             <option value="" disabled selected>Max</option>
-                            <option value="18">18</option>
-                            <option value="19">19</option>
-                            <option value="20">20</option>
-                            <option value="21">21</option>
-                            <option value="22">22</option>
-                            <option value="23">23</option>
-                            <option value="24">24</option>
-                            <option value="25">25</option>
-                            <option value="26">26</option>
-                            <option value="27">27</option>
-                            <option value="28">28</option>
+                            <option value="4'0">4'0</option>
+                            <option value="4'1">4'1</option>
+                            <option value="4'2">4'2</option>
+                            <option value="4'3">4'3</option>
+                            <option value="4'4">4'4</option>
+                            <option value="4'5">4'5</option>
+                            <option value="4'6">4'6</option>
+                            <option value="4'7">4'7</option>
+                            <option value="4'8">4'8</option>
+                            <option value="4'9">4'9</option>
+                            <option value="4'10">4'10</option>
+                            <option value="4'11">4'11</option>
+                            <option value="5'0">5'0</option>
+                            <option value="5'1">5'1</option>
+                            <option value="5'2">5'2</option>
+                            <option value="5'3">5'3</option>
+                            <option value="5'4">5'4</option>
+                            <option value="5'5">5'5</option>
+                            <option value="5'6">5'6</option>
+                            <option value="5'7">5'7</option>
+                            <option value="5'8">5'8</option>
+                            <option value="5'9">5'9</option>
+                            <option value="5'10">5'10</option>
+                            <option value="5'11">5'11</option>
+                            <option value="6'0">6'0</option>
                         </select>
                     </div>
                 </div>
                 <button class="select center" style="width: 93%;" type="submit">Filter</button>
+                <button class="select center none" style="width: 93%">Close</button>
             </form>
         </div>
         <div class="match-list">
             <div class="matches">
-                <img class="match-pic"  src="./images/girlpic1.jpeg">
+                <a href="https://www.zoosk.com/date-mix/online-dating-advice/dating-profile-examples-popular-apps/">
+                    <img class="match-pic"  src="./images/girlpic1.jpeg">
+                </a>
                 <div class="description-box">
                     <div class="text-box">
                         <h3>Name</h3>
@@ -143,15 +162,17 @@
                         <h3>Location</h3>
                     </div>
                     <div class="hidden">
-                        <button type="button">X</button>
-                        <button type="button">❤</button>
-                        <button type="button">MSG</button>
+                        <button class="circle black" onclick="nope()">X</button>
+                        <button class="circle red" onclick="like()">❤</button>
+                        <button class="circle" onclick="msg()">MSG</button>
                     </div>
                 </div>
             </div>
 
             <div class="matches">
-                <img class="match-pic" src="./images/girlpic2.jpeg">
+                <a href="https://www.zoosk.com/date-mix/online-dating-advice/dating-profile-examples-popular-apps/">
+                    <img class="match-pic" src="./images/girlpic2.jpeg">
+                </a>
                 <div class="description-box">
                     <div class="text-box">
                         <h3>Name</h3>
@@ -159,15 +180,17 @@
                         <h3>Location</h3>
                     </div>
                     <div class="hidden">
-                        <button type="button">X</button>
-                        <button type="button">❤</button>
-                        <button type="button">MSG</button>
+                        <button class="circle black" onclick="nope()">X</button>
+                        <button class="circle red" onclick="like()">❤</button>
+                        <button class="circle" onclick="msg()">MSG</button>
                     </div>
                 </div>
             </div>
 
             <div class="matches">
-                <img class="match-pic" src="./images/girlpic3.jpeg">
+                <a href="https://www.zoosk.com/date-mix/online-dating-advice/dating-profile-examples-popular-apps/">
+                    <img class="match-pic" src="./images/girlpic3.jpeg">
+                </a>    
                 <div class="description-box">
                     <div class="text-box">
                         <h3>Name</h3>
@@ -175,15 +198,17 @@
                         <h3>Location</h3>
                     </div>
                     <div class="hidden">
-                        <button type="button">X</button>
-                        <button type="button">❤</button>
-                        <button type="button">MSG</button>
+                        <button class="circle black" onclick="nope()">X</button>
+                        <button class="circle red" onclick="like()">❤</button>
+                        <button class="circle" onclick="msg()">MSG</button>
                     </div>
                 </div>
             </div>
 
             <div class="matches">
-                <img class="match-pic" src="./images/girlpic4.jpeg">
+                <a href="https://www.zoosk.com/date-mix/online-dating-advice/dating-profile-examples-popular-apps/">
+                    <img class="match-pic" src="./images/girlpic4.jpeg">
+                </a>
                 <div class="description-box">
                     <div class="text-box">
                         <h3>Name</h3>
@@ -191,15 +216,17 @@
                         <h3>Location</h3>
                     </div>
                     <div class="hidden">
-                        <button type="button">X</button>
-                        <button type="button">❤</button>
-                        <button type="button">MSG</button>
+                        <button class="circle black" onclick="nope()">X</button>
+                        <button class="circle red" onclick="like()">❤</button>
+                        <button class="circle" onclick="msg()">MSG</button>
                     </div>
                 </div>
             </div>
 
             <div class="matches">
-                <img class="match-pic" src="./images/girlpic5.jpeg">
+                <a href="https://www.zoosk.com/date-mix/online-dating-advice/dating-profile-examples-popular-apps/">
+                    <img class="match-pic" src="./images/girlpic5.jpeg">
+                </a>
                 <div class="description-box">
                     <div class="text-box">
                         <h3>Name</h3>
@@ -207,15 +234,17 @@
                         <h3>Location</h3>
                     </div>
                     <div class="hidden">
-                        <button type="button">X</button>
-                        <button type="button">❤</button>
-                        <button type="button">MSG</button>
+                        <button class="circle black" onclick="nope()">X</button>
+                        <button class="circle red" onclick="like()">❤</button>
+                        <button class="circle" onclick="msg()">MSG</button>
                     </div>
                 </div>
             </div>
 
             <div class="matches">
-                <img class="match-pic" src="./images/girlpic6.jpeg">
+                <a href="https://www.zoosk.com/date-mix/online-dating-advice/dating-profile-examples-popular-apps/">
+                    <img class="match-pic" src="./images/girlpic6.jpeg">
+                </a>
                 <div class="description-box">
                     <div class="text-box">
                         <h3>Name</h3>
@@ -223,15 +252,17 @@
                         <h3>Location</h3>
                     </div>
                     <div class="hidden">
-                        <button type="button">X</button>
-                        <button type="button">❤</button>
-                        <button type="button">MSG</button>
+                        <button class="circle black" onclick="nope()">X</button>
+                        <button class="circle red" onclick="like()">❤</button>
+                        <button class="circle" onclick="msg()">MSG</button>
                     </div>
                 </div>
             </div>
 
             <div class="matches">
-                <img class="match-pic" src="./images/girlpic7.jpeg">
+                <a href="https://www.zoosk.com/date-mix/online-dating-advice/dating-profile-examples-popular-apps/">
+                    <img class="match-pic" src="./images/girlpic7.jpeg">
+                </a>
                 <div class="description-box">
                     <div class="text-box">
                         <h3>Name</h3>
@@ -239,15 +270,17 @@
                         <h3>Location</h3>
                     </div>
                     <div class="hidden">
-                        <button type="button">X</button>
-                        <button type="button">❤</button>
-                        <button type="button">MSG</button>
+                        <button class="circle black" onclick="nope()">X</button>
+                        <button class="circle red" onclick="like()">❤</button>
+                        <button class="circle" onclick="msg()">MSG</button>
                     </div>
                 </div>
             </div>
 
             <div class="matches">
-                <img class="match-pic" src="./images/girlpic8.jpeg">
+                <a href="https://www.zoosk.com/date-mix/online-dating-advice/dating-profile-examples-popular-apps/">
+                    <img class="match-pic" src="./images/girlpic8.jpeg">
+                </a>
                 <div class="description-box">
                     <div class="text-box">
                         <h3>Name</h3>
@@ -255,15 +288,17 @@
                         <h3>Location</h3>
                     </div>
                     <div class="hidden">
-                        <button type="button">X</button>
-                        <button type="button">❤</button>
-                        <button type="button">MSG</button>
+                        <button class="circle black" onclick="nope()">X</button>
+                        <button class="circle red" onclick="like()">❤</button>
+                        <button class="circle" onclick="msg()">MSG</button>
                     </div>
                 </div>
             </div>
 
             <div class="matches">
-                <img class="match-pic" src="./images/girlpic9.jpeg">
+                <a href="https://www.zoosk.com/date-mix/online-dating-advice/dating-profile-examples-popular-apps/">
+                    <img class="match-pic" src="./images/girlpic9.jpeg">
+                </a>
                 <div class="description-box">
                     <div class="text-box">
                         <h3>Name</h3>
@@ -271,15 +306,17 @@
                         <h3>Location</h3>
                     </div>
                     <div class="hidden">
-                        <button type="button">X</button>
-                        <button type="button">❤</button>
-                        <button type="button">MSG</button>
+                        <button class="circle black" onclick="nope()">X</button>
+                        <button class="circle red" onclick="like()">❤</button>
+                        <button class="circle" onclick="msg()">MSG</button>
                     </div>
                 </div>
             </div>
 
             <div class="matches">
-                <img class="match-pic" src="./images/girlpic10.jpeg">
+                <a href="https://www.zoosk.com/date-mix/online-dating-advice/dating-profile-examples-popular-apps/">
+                    <img class="match-pic" src="./images/girlpic10.jpeg">
+                </a>
                 <div class="description-box">
                     <div class="text-box">
                         <h3>Name</h3>
@@ -287,9 +324,9 @@
                         <h3>Location</h3>
                     </div>
                     <div class="hidden">
-                        <button type="button">X</button>
-                        <button type="button">❤</button>
-                        <button type="button">MSG</button>
+                        <button class="circle black" onclick="nope()">X</button>
+                        <button class="circle red" onclick="like()">❤</button>
+                        <button class="circle onclick="msg()">MSG</button>
                     </div>
                 </div>
             </div>
@@ -297,6 +334,23 @@
         </div>
     </div>
 
+    <script>
+        function like() {
+            alert("Liked! ❤️")
+        }
+
+        function nope() {
+            alert("Nope!")
+        }
+
+        function msg() {
+            alert("How's it going?")
+        }
+
+        function display() {
+            $('#filter').css({display: 'inline'});
+        }
+    </script>
 
     <link rel="stylesheet" href="./main.css"/>
 </body>

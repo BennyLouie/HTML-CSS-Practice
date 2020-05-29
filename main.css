@@ -133,12 +133,39 @@ img {
 
 .red {
     color: red;
+    background-color: darkred;
+    text-align: center;
+    font-size: 150%;
 }
 
+.black {
+    color: white;
+    background-color: black;
+    font-size: 150%;
+}
+
+.none {
+    display: none;
+}
+
+.show {
+    display: inline;
+}
+
+.circle {
+    display:block;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-weight: bold;
+}
 @media only screen and (max-width : 640px) {
 	.filter {
         display: none;
         background-color: none;
+        align-self: center;
+        z-index: 10;
+        position: absolute;
     }
 
     .hidden {
@@ -146,6 +173,10 @@ img {
         justify-content: space-around;
         align-content: center;
         width: 100%;
+    }
+
+    .none {
+        display: inline;
     }
 
     .name {
